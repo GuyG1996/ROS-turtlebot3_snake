@@ -25,11 +25,11 @@ Follow these steps to run the project:
 2. Ensure that the Python files (`ObservationService.py`, `control_script.py`, `control_script_err.py`, and `turtle_controller.py`) have executable permissions (make it happen by command 'chmod +x control_script.py' for every python file).
 3. Make sure your ROS environment is set up correctly including sourcing (`you can do that with echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc`).
 4. Open a new terminal and run `roscore`.
-5. Open another terminal and run the foloowing command to observe the correct script execution.
+5. Open another terminal and run the following command to observe the correct script execution.
    ```
-    `roslaunch ass1 ass1.launch`
+    roslaunch ass1 ass1.launch
    ```
 6. For rule-breaking scripts, use:
      ```
-    `roslaunch ass1 ass1_err.launch`.
+    roslaunch ass1 ass1_err.launch
      ```
